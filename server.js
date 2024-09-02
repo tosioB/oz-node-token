@@ -3,7 +3,7 @@
 const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
-const jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken'); // npm install jsonwebtoken
 
 const users = [
   {
