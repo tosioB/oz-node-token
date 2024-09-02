@@ -39,7 +39,7 @@ app.post('/', (req, res) => {
     // expiresIn - 토큰 유효기간 얼마나 가질건지 설정
     // 토큰에 민감한 정보는 넣지말기!!
     res.cookie('accessToken', accessToken);
-    res.send("세션 생성 완료!");
+    res.send("토큰 생성 완료!");
   }
 
 })
